@@ -45,5 +45,5 @@ CREATE PROCEDURE SalesLT_028
     GROUP BY a.ShipMethod, a.PurchaseOrderNumber, a.DueDate, a.TotalDue
  END
 
- EXEC SalesLT_002 @DATE_BEG_2 = '2010-01-01', @DATE_BEG_3 = '2018-01-01';
+ EXEC SalesLT_028 @DATE_BEG_2 = '2010-01-01', @DATE_BEG_3 = '2018-01-01';
 GO
